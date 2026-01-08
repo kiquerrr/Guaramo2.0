@@ -1,0 +1,18 @@
+{
+  "name": "cachapas-guaramo-bot",
+  "version": "2.0.0",
+  "description": "Sistema WhatsApp + Web para Cachapas Guaramo",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node src/app.js"
+  },
+  "author": "kiquerrr",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^12.5.0",
+    "express": "^5.2.1",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.34.4"
+  }
+}
